@@ -27,8 +27,7 @@ public class Moderator extends User{
     //return the removed moderator’s ID
   }
 
-  public void updateUser(String name, int phoneNumber, String email, String         
-                         address, String bio){
+  public void updateUser(String name, int phoneNumber, String email, String address, String bio){
 
   }
 
