@@ -102,10 +102,8 @@ public class User {
 
   /* Given the attributes an item, create an item associated with the  
   PosterID */
-  public int addListing(Community community, String itemName, String quality, 
-                        String description, String tags) {
-	Listing listing = new Listing(userID, community, quality, description, 
-                                   tags, true);
+  public int addListing(Community community, String itemName, String quality, String description, String tags) {
+	Listing listing = new Listing(userID, community, quality, description, tags, true);
 	return listing.getListingID();
   }
 
@@ -188,7 +186,7 @@ public class User {
     //return the removed Community object
   }
 
-  public Community searchCommunity(String communityName, String                    communityLocation){
+  public Community searchCommunity(String communityName, String communityLocation){
     //return any resulting Community objects
   }
   
